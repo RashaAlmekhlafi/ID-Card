@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>w1 final project</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+
+    <body>
+        <center>
+        <h1>Let's Create an ID card!</h1>
+        <form action="">
+            First Name:<br>
+            <input type="text" id="firstName" Placeholder="First Name"> <br>
+            Last Name:<br>
+            <input type="text" id="lastName" Placeholder="Last Name"><br>
+            Age:<br>
+            <input type="text" id="age" Placeholder="Age"><br>
+            Phone Number:<br>
+            <input type="text" id="phoneNumber" Placeholder="Phone Number"><br>
+            Adress:<br>
+            <input type="text" id="adress" Placeholder="Adress"><br><br>
+            <input type="button" onclick="idCard()" id="getCard" value="Get ID Card">
+        </form>
+
+        <div class="card" id="idcard" style="display:none">
+            <img src="user.png" alt="userphoto">
+            <h2 id="PostFullName"></h3> 
+            <p id="PostAge"></p>
+            <p id="PostPhoneNumber"></p>
+            <p id="PostAdress"></p>
+            
+        </div>
+    </center>
+        <script src="js.js"></script>
+    </body>
+</html>
